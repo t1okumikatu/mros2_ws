@@ -1,0 +1,7 @@
+/home/keime/mros2_ws/install/tinyxml2/lib/libtinyxml2.a
+/home/keime/mros2_ws/install/tinyxml2/lib/cmake/tinyxml2/tinyxml2-static-targets.cmake
+/home/keime/mros2_ws/install/tinyxml2/lib/cmake/tinyxml2/tinyxml2-static-targets-noconfig.cmake
+/home/keime/mros2_ws/install/tinyxml2/lib/cmake/tinyxml2/tinyxml2-config.cmake
+/home/keime/mros2_ws/install/tinyxml2/lib/cmake/tinyxml2/tinyxml2-config-version.cmake
+/home/keime/mros2_ws/install/tinyxml2/include/tinyxml2.h
+/home/keime/mros2_ws/install/tinyxml2/lib/pkgconfig/tinyxml2.pc
