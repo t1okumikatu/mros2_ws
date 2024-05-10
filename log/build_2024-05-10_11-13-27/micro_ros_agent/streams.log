@@ -1,0 +1,324 @@
+[0.079s] Invoking command in '/home/keime/mros2_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/keime/mros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keime/mros2_ws/install/micro_ros_msgs:/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/keime/mros2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/keime/mros2_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/keime/mros2_ws/install/micro_ros_agent
+[0.083s] Not searching for unused variables given on the command line.
+[0.239s] -- The C compiler identification is GNU 11.4.0
+[0.331s] -- Detecting C compiler ABI info
+[0.393s] -- Detecting C compiler ABI info - done
+[0.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.393s] -- Detecting C compile features
+[0.393s] -- Detecting C compile features - done
+[0.460s] -- The CXX compiler identification is GNU 11.4.0
+[0.569s] -- Detecting CXX compiler ABI info
+[0.649s] -- Detecting CXX compiler ABI info - done
+[0.654s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.654s] -- Detecting CXX compile features
+[0.654s] -- Detecting CXX compile features - done
+[1.089s] -- Configuring done
+[1.091s] -- Generating done
+[1.092s] -- Build files have been written to: /home/keime/mros2_ws/build/micro_ros_agent
+[1.095s] Invoked command in '/home/keime/mros2_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/keime/mros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keime/mros2_ws/install/micro_ros_msgs:/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/keime/mros2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/keime/mros2_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/keime/mros2_ws/install/micro_ros_agent
+[1.096s] Invoking command in '/home/keime/mros2_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/keime/mros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keime/mros2_ws/install/micro_ros_msgs:/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/keime/mros2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/keime/mros2_ws/build/micro_ros_agent -- -j2 -l2
+[1.121s] [  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[1.156s] [ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[1.166s] Cloning into 'xrceagent'...
+[5.340s] Switched to a new branch 'ros2'
+[5.340s] Branch 'ros2' set up to track remote branch 'ros2' from 'origin'.
+[5.378s] [ 18%] [34m[1mPerforming update step for 'xrceagent'[0m
+[6.393s] HEAD is now at c25243c Enable Domain Override on Reference and XML Participant (#351)
+[6.415s] [ 25%] [34m[1mNo patch step for 'xrceagent'[0m
+[6.430s] [ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[6.437s] loading initial cache file /home/keime/mros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[6.595s] -- The C compiler identification is GNU 11.4.0
+[7.181s] -- Detecting C compiler ABI info
+[7.347s] -- Detecting C compiler ABI info - done
+[7.351s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.351s] -- Detecting C compile features
+[7.352s] -- Detecting C compile features - done
+[7.518s] -- The CXX compiler identification is GNU 11.4.0
+[7.644s] -- Detecting CXX compiler ABI info
+[7.773s] -- Detecting CXX compiler ABI info - done
+[7.777s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.777s] -- Detecting CXX compile features
+[7.778s] -- Detecting CXX compile features - done
+[7.786s] -- Looking for pthread.h
+[7.860s] -- Looking for pthread.h - found
+[7.860s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.933s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.934s] -- Found Threads: TRUE  
+[7.944s] -- Configuring done
+[7.945s] -- Generating done
+[7.946s] -- Build files have been written to: /home/keime/mros2_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[7.958s] [ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[7.980s] [ 12%] [34m[1mCreating directories for 'uagent'[0m
+[8.016s] [ 25%] [34m[1mNo download step for 'uagent'[0m
+[8.028s] [ 37%] [34m[1mNo update step for 'uagent'[0m
+[8.041s] [ 50%] [34m[1mNo patch step for 'uagent'[0m
+[8.053s] [ 62%] [34m[1mPerforming configure step for 'uagent'[0m
+[8.058s] loading initial cache file /home/keime/mros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+[8.061s] -- Setting build type to 'Release' as none was specified.
+[8.993s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[8.993s]   The package name passed to `find_package_handle_standard_args` (tinyxml2)
+[8.993s]   does not match the name of the calling package (TinyXML2).  This can lead
+[8.993s]   to problems in calling code that expects `find_package` result variables
+[8.993s]   (e.g., `_FOUND`) to follow a certain pattern.
+[8.994s] Call Stack (most recent call first):
+[8.994s]   cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+[8.994s]   /opt/ros/humble/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+[8.994s]   CMakeLists.txt:153 (find_package)
+[8.994s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[8.994s] [0m
+[8.994s] -- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[9.136s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.143s] -- Configuring done
+[9.152s] -- Generating done
+[9.152s] -- Build files have been written to: /home/keime/mros2_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[9.164s] [ 75%] [34m[1mPerforming build step for 'uagent'[0m
+[9.188s] [  2%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[9.189s] [  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[11.826s] [  7%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[15.008s] [  9%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[15.286s] [ 11%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m
+[19.347s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o[0m
+[19.983s] [ 16%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o[0m
+[20.622s] [ 19%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o[0m
+[21.270s] [ 21%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o[0m
+[21.939s] [ 23%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o[0m
+[22.701s] [ 26%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o[0m
+[24.048s] [ 28%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o[0m
+[24.906s] [ 30%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o[0m
+[26.317s] [ 33%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o[0m
+[26.624s] [ 35%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o[0m
+[27.151s] [ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o[0m
+[27.453s] [ 40%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o[0m
+[27.741s] [ 42%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o[0m
+[29.758s] [ 45%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o[0m
+[29.804s] [ 47%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o[0m
+[30.744s] [ 50%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o[0m
+[31.736s] [ 52%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o[0m
+[31.874s] [ 54%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o[0m
+[34.218s] [ 57%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o[0m
+[34.397s] [ 59%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o[0m
+[36.616s] [ 61%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o[0m
+[36.773s] [ 64%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o[0m
+[39.572s] [ 66%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o[0m
+[39.658s] [ 69%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o[0m
+[41.682s] [ 71%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o[0m
+[41.685s] [ 73%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o[0m
+[43.976s] [ 76%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o[0m
+[44.021s] [ 78%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o[0m
+[45.929s] [ 80%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o[0m
+[46.088s] [ 83%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o[0m
+[46.479s] [ 85%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o[0m
+[47.360s] [ 88%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o[0m
+[48.006s] [ 90%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o[0m
+[48.714s] [ 92%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o[0m
+[51.411s] [ 95%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[51.855s] [ 97%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
+[56.462s] [100%] [32m[1mLinking CXX shared library libmicroxrcedds_agent.so[0m
+[56.820s] [100%] Built target microxrcedds_agent
+[56.835s] [34m[1mNo install step for 'uagent'[0m
+[56.847s] [34m[1mCompleted 'uagent'[0m
+[56.863s] Built target uagent
+[56.876s] [ 43%] [34m[1mPerforming install step for 'xrceagent'[0m
+[56.903s] [35m[1mConsolidate compiler generated dependencies of target microxrcedds_agent[0m
+[56.937s] [100%] Built target microxrcedds_agent
+[56.947s] [36mInstall the project...[0m
+[56.952s] -- Install configuration: "Release"
+[56.952s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1
+[56.954s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4
+[56.954s] -- Set runtime path of "/home/keime/mros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1" to ""
+[56.954s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so
+[56.954s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent
+[56.954s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/types
+[56.954s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp
+[56.954s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp
+[56.954s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/p2p
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils
+[56.955s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/processor
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/reader
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/subscriber
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/datawriter
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/requester
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/client
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/client/session
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp
+[56.956s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/message
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/publisher
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/topic
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/logger
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/replier
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/participant
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp
+[56.957s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/datareader
+[56.958s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp
+[56.958s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport
+[56.958s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p
+[56.958s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp
+[56.958s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp
+[56.958s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp
+[56.958s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/custom
+[56.958s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp
+[56.958s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery
+[56.958s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp
+[56.958s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp
+[56.958s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp
+[56.958s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp
+[56.958s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp
+[56.958s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/can
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint
+[56.959s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/object
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp
+[56.960s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp
+[56.961s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp
+[56.961s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp
+[56.961s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp
+[56.961s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp
+[56.961s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp
+[56.961s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler
+[56.961s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp
+[56.961s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp
+[56.961s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp
+[56.961s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake
+[56.961s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake
+[56.961s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/config.hpp
+[56.961s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE
+[56.961s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake
+[56.961s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake
+[56.971s] [ 50%] [34m[1mCompleted 'xrceagent'[0m
+[56.988s] [ 50%] Built target xrceagent
+[57.000s] [ 56%] [34m[1mCreating directories for 'micro_ros_agent'[0m
+[57.036s] [ 62%] [34m[1mNo download step for 'micro_ros_agent'[0m
+[57.048s] [ 68%] [34m[1mNo update step for 'micro_ros_agent'[0m
+[57.059s] [ 75%] [34m[1mNo patch step for 'micro_ros_agent'[0m
+[57.071s] [ 81%] [34m[1mPerforming configure step for 'micro_ros_agent'[0m
+[57.076s] loading initial cache file /home/keime/mros2_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake
+[57.079s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[57.180s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[58.467s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[58.471s] -- Looking for C++ include pthread.h
+[58.648s] -- Looking for C++ include pthread.h - found
+[58.648s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[58.778s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[58.779s] -- Found Threads: TRUE  
+[58.781s] -- Found rosidl_cmake: 3.1.5 (/opt/ros/humble/share/rosidl_cmake/cmake)
+[58.782s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[59.334s] -- Found fastrtps_cmake_module: 2.2.2 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)
+[59.348s] -- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)
+[59.552s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[59.557s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[59.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[59.572s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[59.601s] -- Found rmw_fastrtps_shared_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)
+[61.304s] -- Found FastRTPS: /opt/ros/humble/include  
+[61.305s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[61.306s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[61.307s] -- Found micro_ros_msgs: 3.0.1 (/home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[61.368s] -- Configuring done
+[61.375s] -- Generating done
+[61.377s] -- Build files have been written to: /home/keime/mros2_ws/build/micro_ros_agent
+[61.394s] [ 87%] [34m[1mPerforming build step for 'micro_ros_agent'[0m
+[61.418s] [ 16%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[61.420s] [ 33%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[63.785s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[64.106s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[65.280s] [ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o[0m
+[65.990s] [100%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[66.327s] [100%] Built target micro_ros_agent
+[66.341s] [34m[1mNo install step for 'micro_ros_agent'[0m
+[66.354s] [34m[1mCompleted 'micro_ros_agent'[0m
+[66.370s] Built target micro_ros_agent
+[66.376s] Invoked command in '/home/keime/mros2_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/keime/mros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keime/mros2_ws/install/micro_ros_msgs:/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/keime/mros2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/keime/mros2_ws/build/micro_ros_agent -- -j2 -l2
+[66.398s] Invoking command in '/home/keime/mros2_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/keime/mros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keime/mros2_ws/install/micro_ros_msgs:/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/keime/mros2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/keime/mros2_ws/build/micro_ros_agent
+[66.403s] -- Install configuration: ""
+[66.403s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[66.403s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[66.403s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[66.403s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[66.403s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[66.403s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[66.404s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[66.404s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[66.404s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[66.404s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[66.404s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[66.404s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[66.404s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[66.404s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[66.404s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[66.405s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[66.405s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[66.406s] -- Set runtime path of "/home/keime/mros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""
+[66.406s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch
+[66.406s] -- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[66.408s] Invoked command in '/home/keime/mros2_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/keime/mros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keime/mros2_ws/install/micro_ros_msgs:/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/keime/mros2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/keime/mros2_ws/build/micro_ros_agent

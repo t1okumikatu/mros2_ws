@@ -1,0 +1,1351 @@
+[0.000000] (-) TimerEvent: {}
+[0.000288] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.000337] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.000353] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/keime/mros2_ws/install/micro_ros_msgs')])}
+[0.000368] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.040161] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.040231] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/keime/mros2_ws/src/uros/micro_ros_msgs', '-DUAGENT_BUILD_EXECUTABLE=OFF', '-DUAGENT_P2P_PROFILE=OFF', '--no-warn-unused-cli', '-DCMAKE_INSTALL_PREFIX=/home/keime/mros2_ws/install/micro_ros_msgs'], 'cwd': '/home/keime/mros2_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'keime'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/keime'), ('OLDPWD', '/home/keime'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/keime/mros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'keime'), ('NAME', '23-11-28keime'), ('WSL_INTEROP', '/run/WSL/508_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WinGet/Packages/Ookla.Speedtest.CLI_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin'), ('WT_SESSION', '4ed568cc-6228-42c2-bd1b-5ec5e61f5de1'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/keime/mros2_ws/build/micro_ros_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.045967] (micro_ros_msgs) StdoutLine: {'line': b'Not searching for unused variables given on the command line.\n'}
+[0.098281] (-) TimerEvent: {}
+[0.181734] (micro_ros_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198582] (-) TimerEvent: {}
+[0.299142] (-) TimerEvent: {}
+[0.399501] (-) TimerEvent: {}
+[0.500017] (-) TimerEvent: {}
+[0.600432] (-) TimerEvent: {}
+[0.607914] (micro_ros_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.692790] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.700575] (-) TimerEvent: {}
+[0.764580] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.768885] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.769035] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.769287] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.771129] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.800769] (-) TimerEvent: {}
+[0.854649] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.859161] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.859261] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.859626] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.860948] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.900977] (-) TimerEvent: {}
+[0.957591] (micro_ros_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.001189] (-) TimerEvent: {}
+[1.014551] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.025940] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.039563] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.101493] (-) TimerEvent: {}
+[1.202250] (-) TimerEvent: {}
+[1.302939] (-) TimerEvent: {}
+[1.356874] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.403129] (-) TimerEvent: {}
+[1.428710] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.503338] (-) TimerEvent: {}
+[1.603664] (-) TimerEvent: {}
+[1.623147] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.703914] (-) TimerEvent: {}
+[1.761440] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.804172] (-) TimerEvent: {}
+[1.904581] (-) TimerEvent: {}
+[1.924360] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.994105] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.996952] (micro_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.004756] (-) TimerEvent: {}
+[2.105093] (-) TimerEvent: {}
+[2.154987] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.155165] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.155210] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.155247] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.169990] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.205354] (-) TimerEvent: {}
+[2.217768] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.220312] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.221775] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.229462] (micro_ros_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.255918] (micro_ros_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.258033] (micro_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/keime/mros2_ws/build/micro_ros_msgs\n'}
+[2.263467] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[2.264881] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[2.264900] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/keime/mros2_ws/build/micro_ros_msgs', '--', '-j2', '-l2'], 'cwd': '/home/keime/mros2_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'keime'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/keime'), ('OLDPWD', '/home/keime'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/keime/mros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'keime'), ('NAME', '23-11-28keime'), ('WSL_INTEROP', '/run/WSL/508_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WinGet/Packages/Ookla.Speedtest.CLI_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin'), ('WT_SESSION', '4ed568cc-6228-42c2-bd1b-5ec5e61f5de1'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/keime/mros2_ws/build/micro_ros_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[2.285585] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.290662] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.305352] (-) TimerEvent: {}
+[2.405622] (-) TimerEvent: {}
+[2.506007] (-) TimerEvent: {}
+[2.606313] (-) TimerEvent: {}
+[2.627814] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target micro_ros_msgs__cpp\n'}
+[2.641789] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_micro_ros_msgs\n'}
+[2.646822] (micro_ros_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.658671] (micro_ros_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__functions.c.o\x1b[0m\n'}
+[2.706444] (-) TimerEvent: {}
+[2.734293] (micro_ros_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__functions.c.o\x1b[0m\n'}
+[2.761175] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__functions.c.o\x1b[0m\n'}
+[2.788107] (micro_ros_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libmicro_ros_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.806558] (-) TimerEvent: {}
+[2.840698] (micro_ros_msgs) StdoutLine: {'line': b'[ 14%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[2.845936] (micro_ros_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.893472] (micro_ros_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/graph__type_support.cpp.o\x1b[0m\n'}
+[2.906720] (-) TimerEvent: {}
+[3.006974] (-) TimerEvent: {}
+[3.104712] (micro_ros_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/node__type_support.cpp.o\x1b[0m\n'}
+[3.107068] (-) TimerEvent: {}
+[3.145555] (micro_ros_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o\x1b[0m\n'}
+[3.207264] (-) TimerEvent: {}
+[3.261790] (micro_ros_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[3.307385] (-) TimerEvent: {}
+[3.407728] (-) TimerEvent: {}
+[3.423007] (micro_ros_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.460162] (micro_ros_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o\x1b[0m\n'}
+[3.506934] (micro_ros_msgs) StdoutLine: {'line': b'[ 29%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[3.507841] (-) TimerEvent: {}
+[3.512764] (micro_ros_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.607942] (-) TimerEvent: {}
+[3.708280] (-) TimerEvent: {}
+[3.717416] (micro_ros_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/entity__type_support.cpp.o\x1b[0m\n'}
+[3.795122] (micro_ros_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/graph__type_support.cpp.o\x1b[0m\n'}
+[3.808394] (-) TimerEvent: {}
+[3.908680] (-) TimerEvent: {}
+[3.975655] (micro_ros_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.008827] (-) TimerEvent: {}
+[4.099005] (micro_ros_msgs) StdoutLine: {'line': b'[ 38%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.108922] (-) TimerEvent: {}
+[4.121712] (micro_ros_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/node__type_support.cpp.o\x1b[0m\n'}
+[4.209027] (-) TimerEvent: {}
+[4.273222] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.273645] (micro_ros_msgs) StdoutLine: {'line': b'creating micro_ros_msgs.egg-info\n'}
+[4.273900] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[4.274005] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[4.274056] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[4.274231] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[4.277843] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[4.278192] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[4.296938] (micro_ros_msgs) StdoutLine: {'line': b'[ 40%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[4.302279] (micro_ros_msgs) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.309124] (-) TimerEvent: {}
+[4.386341] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/entity__type_support.cpp.o\x1b[0m\n'}
+[4.409255] (-) TimerEvent: {}
+[4.509589] (-) TimerEvent: {}
+[4.595315] (micro_ros_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/graph__type_support_c.cpp.o\x1b[0m\n'}
+[4.609711] (-) TimerEvent: {}
+[4.629629] (micro_ros_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.709850] (-) TimerEvent: {}
+[4.731378] (micro_ros_msgs) StdoutLine: {'line': b'[ 48%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.736906] (micro_ros_msgs) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.803636] (micro_ros_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/node__type_support_c.cpp.o\x1b[0m\n'}
+[4.809940] (-) TimerEvent: {}
+[4.910207] (-) TimerEvent: {}
+[5.009631] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/entity__type_support_c.cpp.o\x1b[0m\n'}
+[5.010311] (-) TimerEvent: {}
+[5.022155] (micro_ros_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/graph__type_support.c.o\x1b[0m\n'}
+[5.043756] (micro_ros_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/node__type_support.c.o\x1b[0m\n'}
+[5.064230] (micro_ros_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/entity__type_support.c.o\x1b[0m\n'}
+[5.083410] (micro_ros_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking C shared library libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.110439] (-) TimerEvent: {}
+[5.136512] (micro_ros_msgs) StdoutLine: {'line': b'[ 63%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[5.142190] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.205214] (micro_ros_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.210541] (-) TimerEvent: {}
+[5.310781] (-) TimerEvent: {}
+[5.324929] (micro_ros_msgs) StdoutLine: {'line': b'[ 68%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.375277] (micro_ros_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/node__type_support.cpp.o\x1b[0m\n'}
+[5.375447] (micro_ros_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/graph__type_support.cpp.o\x1b[0m\n'}
+[5.393767] (micro_ros_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[5.410261] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.410872] (-) TimerEvent: {}
+[5.480734] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[5.491801] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs\n'}
+[5.502205] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.511067] (-) TimerEvent: {}
+[5.611462] (-) TimerEvent: {}
+[5.711965] (-) TimerEvent: {}
+[5.812529] (-) TimerEvent: {}
+[5.912829] (-) TimerEvent: {}
+[5.930641] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target micro_ros_msgs__py\n'}
+[5.941247] (micro_ros_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_node_s.c.o\x1b[0m\n'}
+[5.941383] (micro_ros_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_graph_s.c.o\x1b[0m\n'}
+[6.012951] (-) TimerEvent: {}
+[6.059251] (micro_ros_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_entity_s.c.o\x1b[0m\n'}
+[6.113176] (-) TimerEvent: {}
+[6.119554] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[6.163833] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[6.174046] (micro_ros_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.174256] (micro_ros_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.213357] (-) TimerEvent: {}
+[6.232590] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.233261] (micro_ros_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.287888] (micro_ros_msgs) StdoutLine: {'line': b'[ 95%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.288070] (micro_ros_msgs) StdoutLine: {'line': b'[ 95%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.298666] (micro_ros_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.313567] (-) TimerEvent: {}
+[6.353196] (micro_ros_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.413729] (-) TimerEvent: {}
+[6.429906] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[6.436611] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[6.500742] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[6.505589] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/keime/mros2_ws/build/micro_ros_msgs'], 'cwd': '/home/keime/mros2_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'keime'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/keime'), ('OLDPWD', '/home/keime'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/keime/mros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'keime'), ('NAME', '23-11-28keime'), ('WSL_INTEROP', '/run/WSL/508_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WinGet/Packages/Ookla.Speedtest.CLI_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin'), ('WT_SESSION', '4ed568cc-6228-42c2-bd1b-5ec5e61f5de1'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/keime/mros2_ws/build/micro_ros_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[6.510249] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.510551] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[6.510653] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.510869] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.510963] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[6.511068] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[6.511145] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[6.511185] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.511243] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[6.511284] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[6.511336] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[6.511378] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[6.511430] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[6.511469] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[6.511523] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[6.511562] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[6.511596] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[6.511648] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[6.511687] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[6.511724] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[6.511772] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.511955] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[6.512027] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[6.512083] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[6.512268] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/keime/mros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so" to ""\n'}
+[6.512341] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.512380] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.512415] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.512479] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.512519] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[6.512555] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[6.512588] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[6.512624] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.512686] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/keime/mros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.512727] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.512762] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.512794] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.512827] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.512859] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[6.512907] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[6.512946] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[6.513003] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[6.513041] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[6.513084] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[6.513132] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.513231] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/keime/mros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.513305] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[6.513495] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/keime/mros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so" to ""\n'}
+[6.513577] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.513626] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.513695] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[6.513741] (-) TimerEvent: {}
+[6.513923] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[6.514001] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[6.514075] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.514346] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[6.514483] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[6.514532] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[6.514634] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[6.514734] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[6.514846] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[6.514890] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[6.514928] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[6.514983] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[6.515019] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.515054] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.515087] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.515121] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.515155] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.515189] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.515221] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.515267] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[6.515357] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.515398] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/keime/mros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.515443] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.515478] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.515512] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.515545] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[6.516564] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.516654] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.516715] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.516759] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[6.516807] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[6.516842] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.516875] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/keime/mros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.516912] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[6.516944] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/keime/mros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[6.516976] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[6.517008] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[6.517039] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info\n'}
+[6.517215] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[6.517309] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[6.517360] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO\n'}
+[6.517416] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt\n'}
+[6.517453] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs\n'}
+[6.517488] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.517677] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[6.517780] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.517837] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py\n'}
+[6.517889] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.517932] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.517983] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[6.518033] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.518071] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg\n'}
+[6.518121] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[6.518173] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py\n'}
+[6.518223] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[6.518275] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py\n'}
+[6.518333] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py\n'}
+[6.518368] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py\n'}
+[6.518462] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[6.543975] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...\n"}
+[6.544111] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py'...\n"}
+[6.544154] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...\n"}
+[6.544190] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py'...\n"}
+[6.544225] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py'...\n"}
+[6.544263] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py'...\n"}
+[6.544296] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py'...\n"}
+[6.547814] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.547934] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.547994] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.548093] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.548186] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.548316] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.548379] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[6.548488] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/keime/mros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so" to ""\n'}
+[6.548634] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[6.548713] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[6.553221] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[6.553306] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[6.553365] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[6.553506] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[6.553613] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[6.553709] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[6.553803] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[6.553897] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[6.553991] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[6.554085] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[6.554178] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[6.554271] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[6.554364] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[6.554457] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[6.554550] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[6.554643] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[6.554737] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[6.554830] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.554923] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.555517] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.555789] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.555849] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.555916] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.555990] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.556031] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.556100] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.556204] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.556265] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.556354] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.556398] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.556577] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.556634] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[6.556737] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.556809] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.556849] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.557022] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.557066] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.557162] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.557218] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.557312] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.557407] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[6.557501] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[6.557594] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[6.557687] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[6.613843] (-) TimerEvent: {}
+[6.708827] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[6.710347] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[6.714192] (-) TimerEvent: {}
+[6.788115] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[6.788679] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/keime/mros2_ws/src/uros/micro-ROS-Agent/micro_ros_agent', '-DUAGENT_BUILD_EXECUTABLE=OFF', '-DUAGENT_P2P_PROFILE=OFF', '--no-warn-unused-cli', '-DCMAKE_INSTALL_PREFIX=/home/keime/mros2_ws/install/micro_ros_agent'], 'cwd': '/home/keime/mros2_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'keime'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/keime/mros2_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/keime'), ('OLDPWD', '/home/keime'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/keime/mros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'keime'), ('NAME', '23-11-28keime'), ('WSL_INTEROP', '/run/WSL/508_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WinGet/Packages/Ookla.Speedtest.CLI_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin'), ('WT_SESSION', '4ed568cc-6228-42c2-bd1b-5ec5e61f5de1'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/keime/mros2_ws/install/micro_ros_msgs:/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/keime/mros2_ws/build/micro_ros_agent'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/keime/mros2_ws/install/micro_ros_msgs:/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[6.793611] (micro_ros_agent) StdoutLine: {'line': b'Not searching for unused variables given on the command line.\n'}
+[6.814337] (-) TimerEvent: {}
+[6.914736] (-) TimerEvent: {}
+[6.949530] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[7.014899] (-) TimerEvent: {}
+[7.041663] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.103024] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.103167] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.103235] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.103408] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.115060] (-) TimerEvent: {}
+[7.170029] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[7.215179] (-) TimerEvent: {}
+[7.279145] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.315407] (-) TimerEvent: {}
+[7.359448] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.364128] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.364278] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.364498] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.415525] (-) TimerEvent: {}
+[7.515940] (-) TimerEvent: {}
+[7.616323] (-) TimerEvent: {}
+[7.716796] (-) TimerEvent: {}
+[7.799281] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.801321] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[7.801831] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/keime/mros2_ws/build/micro_ros_agent\n'}
+[7.804798] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[7.805261] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[7.805998] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/keime/mros2_ws/build/micro_ros_agent', '--', '-j2', '-l2'], 'cwd': '/home/keime/mros2_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'keime'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/keime/mros2_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/keime'), ('OLDPWD', '/home/keime'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/keime/mros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'keime'), ('NAME', '23-11-28keime'), ('WSL_INTEROP', '/run/WSL/508_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WinGet/Packages/Ookla.Speedtest.CLI_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin'), ('WT_SESSION', '4ed568cc-6228-42c2-bd1b-5ec5e61f5de1'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/keime/mros2_ws/install/micro_ros_msgs:/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/keime/mros2_ws/build/micro_ros_agent'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/keime/mros2_ws/install/micro_ros_msgs:/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[7.816928] (-) TimerEvent: {}
+[7.831571] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'xrceagent'\x1b[0m\n"}
+[7.866023] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'xrceagent'\x1b[0m\n"}
+[7.875786] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'xrceagent'...\n"}
+[7.917285] (-) TimerEvent: {}
+[8.017977] (-) TimerEvent: {}
+[8.118921] (-) TimerEvent: {}
+[8.219833] (-) TimerEvent: {}
+[8.320685] (-) TimerEvent: {}
+[8.421964] (-) TimerEvent: {}
+[8.523013] (-) TimerEvent: {}
+[8.623616] (-) TimerEvent: {}
+[8.724559] (-) TimerEvent: {}
+[8.825375] (-) TimerEvent: {}
+[8.926367] (-) TimerEvent: {}
+[9.027696] (-) TimerEvent: {}
+[9.128666] (-) TimerEvent: {}
+[9.229420] (-) TimerEvent: {}
+[9.330100] (-) TimerEvent: {}
+[9.431048] (-) TimerEvent: {}
+[9.531735] (-) TimerEvent: {}
+[9.632468] (-) TimerEvent: {}
+[9.733230] (-) TimerEvent: {}
+[9.834256] (-) TimerEvent: {}
+[9.935070] (-) TimerEvent: {}
+[10.035646] (-) TimerEvent: {}
+[10.136381] (-) TimerEvent: {}
+[10.237180] (-) TimerEvent: {}
+[10.337841] (-) TimerEvent: {}
+[10.438470] (-) TimerEvent: {}
+[10.539441] (-) TimerEvent: {}
+[10.640210] (-) TimerEvent: {}
+[10.740978] (-) TimerEvent: {}
+[10.841672] (-) TimerEvent: {}
+[10.942287] (-) TimerEvent: {}
+[11.043241] (-) TimerEvent: {}
+[11.143891] (-) TimerEvent: {}
+[11.244828] (-) TimerEvent: {}
+[11.345491] (-) TimerEvent: {}
+[11.446162] (-) TimerEvent: {}
+[11.546747] (-) TimerEvent: {}
+[11.647546] (-) TimerEvent: {}
+[11.748294] (-) TimerEvent: {}
+[11.849121] (-) TimerEvent: {}
+[11.949578] (-) TimerEvent: {}
+[12.049986] (-) TimerEvent: {}
+[12.050416] (micro_ros_agent) StderrLine: {'line': b"Switched to a new branch 'ros2'\n"}
+[12.050597] (micro_ros_agent) StdoutLine: {'line': b"Branch 'ros2' set up to track remote branch 'ros2' from 'origin'.\n"}
+[12.088422] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'xrceagent'\x1b[0m\n"}
+[12.150427] (-) TimerEvent: {}
+[12.250949] (-) TimerEvent: {}
+[12.351652] (-) TimerEvent: {}
+[12.452210] (-) TimerEvent: {}
+[12.552781] (-) TimerEvent: {}
+[12.653612] (-) TimerEvent: {}
+[12.754406] (-) TimerEvent: {}
+[12.854990] (-) TimerEvent: {}
+[12.955719] (-) TimerEvent: {}
+[13.056667] (-) TimerEvent: {}
+[13.103437] (micro_ros_agent) StderrLine: {'line': b'HEAD is now at c25243c Enable Domain Override on Reference and XML Participant (#351)\n'}
+[13.125335] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'xrceagent'\x1b[0m\n"}
+[13.140112] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'xrceagent'\x1b[0m\n"}
+[13.146924] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/keime/mros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[13.156838] (-) TimerEvent: {}
+[13.257387] (-) TimerEvent: {}
+[13.305719] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[13.357705] (-) TimerEvent: {}
+[13.458409] (-) TimerEvent: {}
+[13.558997] (-) TimerEvent: {}
+[13.659710] (-) TimerEvent: {}
+[13.760346] (-) TimerEvent: {}
+[13.860765] (-) TimerEvent: {}
+[13.890833] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[13.961249] (-) TimerEvent: {}
+[14.056987] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[14.061557] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[14.061702] (-) TimerEvent: {}
+[14.061774] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[14.061889] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[14.162060] (-) TimerEvent: {}
+[14.227914] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[14.262291] (-) TimerEvent: {}
+[14.353794] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[14.362563] (-) TimerEvent: {}
+[14.463028] (-) TimerEvent: {}
+[14.483114] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[14.487676] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[14.487770] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[14.488135] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[14.496093] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[14.563179] (-) TimerEvent: {}
+[14.569826] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[14.569996] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[14.643127] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[14.643874] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[14.654127] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.655613] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[14.655926] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/keime/mros2_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[14.663389] (-) TimerEvent: {}
+[14.668631] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'xrceagent'\x1b[0m\n"}
+[14.690553] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'uagent'\x1b[0m\n"}
+[14.725876] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo download step for 'uagent'\x1b[0m\n"}
+[14.738375] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mNo update step for 'uagent'\x1b[0m\n"}
+[14.750925] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch step for 'uagent'\x1b[0m\n"}
+[14.763145] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'uagent'\x1b[0m\n"}
+[14.763462] (-) TimerEvent: {}
+[14.768154] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/keime/mros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake\n'}
+[14.771494] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[14.863794] (-) TimerEvent: {}
+[14.964251] (-) TimerEvent: {}
+[15.064680] (-) TimerEvent: {}
+[15.165255] (-) TimerEvent: {}
+[15.265673] (-) TimerEvent: {}
+[15.366100] (-) TimerEvent: {}
+[15.466626] (-) TimerEvent: {}
+[15.567106] (-) TimerEvent: {}
+[15.667501] (-) TimerEvent: {}
+[15.703492] (micro_ros_agent) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[15.703697] (micro_ros_agent) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (tinyxml2)\n'}
+[15.703762] (micro_ros_agent) StderrLine: {'line': b'  does not match the name of the calling package (TinyXML2).  This can lead\n'}
+[15.703801] (micro_ros_agent) StderrLine: {'line': b'  to problems in calling code that expects `find_package` result variables\n'}
+[15.703838] (micro_ros_agent) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[15.703873] (micro_ros_agent) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[15.703908] (micro_ros_agent) StderrLine: {'line': b'  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)\n'}
+[15.703944] (micro_ros_agent) StderrLine: {'line': b'  /opt/ros/humble/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)\n'}
+[15.703979] (micro_ros_agent) StderrLine: {'line': b'  CMakeLists.txt:153 (find_package)\n'}
+[15.704013] (micro_ros_agent) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[15.704046] (micro_ros_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[15.704254] (micro_ros_agent) StdoutLine: {'line': b'-- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  \n'}
+[15.767585] (-) TimerEvent: {}
+[15.846693] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[15.853379] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.861804] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[15.862584] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/keime/mros2_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[15.867786] (-) TimerEvent: {}
+[15.873934] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mPerforming build step for 'uagent'\x1b[0m\n"}
+[15.898419] (micro_ros_agent) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o\x1b[0m\n'}
+[15.899402] (micro_ros_agent) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o\x1b[0m\n'}
+[15.967903] (-) TimerEvent: {}
+[16.068192] (-) TimerEvent: {}
+[16.168509] (-) TimerEvent: {}
+[16.268828] (-) TimerEvent: {}
+[16.369134] (-) TimerEvent: {}
+[16.469453] (-) TimerEvent: {}
+[16.569795] (-) TimerEvent: {}
+[16.670115] (-) TimerEvent: {}
+[16.770460] (-) TimerEvent: {}
+[16.870787] (-) TimerEvent: {}
+[16.971151] (-) TimerEvent: {}
+[17.071474] (-) TimerEvent: {}
+[17.171797] (-) TimerEvent: {}
+[17.272115] (-) TimerEvent: {}
+[17.372440] (-) TimerEvent: {}
+[17.472768] (-) TimerEvent: {}
+[17.573081] (-) TimerEvent: {}
+[17.673404] (-) TimerEvent: {}
+[17.773760] (-) TimerEvent: {}
+[17.874129] (-) TimerEvent: {}
+[17.974435] (-) TimerEvent: {}
+[18.074745] (-) TimerEvent: {}
+[18.175086] (-) TimerEvent: {}
+[18.275372] (-) TimerEvent: {}
+[18.375695] (-) TimerEvent: {}
+[18.475986] (-) TimerEvent: {}
+[18.536703] (micro_ros_agent) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o\x1b[0m\n'}
+[18.576101] (-) TimerEvent: {}
+[18.676412] (-) TimerEvent: {}
+[18.776702] (-) TimerEvent: {}
+[18.876991] (-) TimerEvent: {}
+[18.977283] (-) TimerEvent: {}
+[19.077567] (-) TimerEvent: {}
+[19.177855] (-) TimerEvent: {}
+[19.278167] (-) TimerEvent: {}
+[19.378468] (-) TimerEvent: {}
+[19.478757] (-) TimerEvent: {}
+[19.579040] (-) TimerEvent: {}
+[19.679342] (-) TimerEvent: {}
+[19.779637] (-) TimerEvent: {}
+[19.879941] (-) TimerEvent: {}
+[19.980247] (-) TimerEvent: {}
+[20.080552] (-) TimerEvent: {}
+[20.180842] (-) TimerEvent: {}
+[20.281138] (-) TimerEvent: {}
+[20.381439] (-) TimerEvent: {}
+[20.481754] (-) TimerEvent: {}
+[20.582068] (-) TimerEvent: {}
+[20.682383] (-) TimerEvent: {}
+[20.782670] (-) TimerEvent: {}
+[20.882952] (-) TimerEvent: {}
+[20.983242] (-) TimerEvent: {}
+[21.083547] (-) TimerEvent: {}
+[21.183926] (-) TimerEvent: {}
+[21.284349] (-) TimerEvent: {}
+[21.384636] (-) TimerEvent: {}
+[21.484932] (-) TimerEvent: {}
+[21.585242] (-) TimerEvent: {}
+[21.685543] (-) TimerEvent: {}
+[21.718325] (micro_ros_agent) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o\x1b[0m\n'}
+[21.785658] (-) TimerEvent: {}
+[21.885970] (-) TimerEvent: {}
+[21.986289] (-) TimerEvent: {}
+[21.996188] (micro_ros_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o\x1b[0m\n'}
+[22.086400] (-) TimerEvent: {}
+[22.186698] (-) TimerEvent: {}
+[22.286998] (-) TimerEvent: {}
+[22.387302] (-) TimerEvent: {}
+[22.487613] (-) TimerEvent: {}
+[22.587922] (-) TimerEvent: {}
+[22.688226] (-) TimerEvent: {}
+[22.788531] (-) TimerEvent: {}
+[22.888841] (-) TimerEvent: {}
+[22.989146] (-) TimerEvent: {}
+[23.089439] (-) TimerEvent: {}
+[23.189760] (-) TimerEvent: {}
+[23.290059] (-) TimerEvent: {}
+[23.390381] (-) TimerEvent: {}
+[23.490785] (-) TimerEvent: {}
+[23.591073] (-) TimerEvent: {}
+[23.691365] (-) TimerEvent: {}
+[23.791678] (-) TimerEvent: {}
+[23.891994] (-) TimerEvent: {}
+[23.992323] (-) TimerEvent: {}
+[24.092618] (-) TimerEvent: {}
+[24.192931] (-) TimerEvent: {}
+[24.293239] (-) TimerEvent: {}
+[24.393526] (-) TimerEvent: {}
+[24.493810] (-) TimerEvent: {}
+[24.594110] (-) TimerEvent: {}
+[24.694437] (-) TimerEvent: {}
+[24.794817] (-) TimerEvent: {}
+[24.895113] (-) TimerEvent: {}
+[24.995366] (-) TimerEvent: {}
+[25.095649] (-) TimerEvent: {}
+[25.195968] (-) TimerEvent: {}
+[25.296377] (-) TimerEvent: {}
+[25.396666] (-) TimerEvent: {}
+[25.496954] (-) TimerEvent: {}
+[25.597233] (-) TimerEvent: {}
+[25.697546] (-) TimerEvent: {}
+[25.797840] (-) TimerEvent: {}
+[25.898155] (-) TimerEvent: {}
+[25.998453] (-) TimerEvent: {}
+[26.057298] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o\x1b[0m\n'}
+[26.098571] (-) TimerEvent: {}
+[26.198870] (-) TimerEvent: {}
+[26.299151] (-) TimerEvent: {}
+[26.399442] (-) TimerEvent: {}
+[26.499751] (-) TimerEvent: {}
+[26.600070] (-) TimerEvent: {}
+[26.693684] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o\x1b[0m\n'}
+[26.700183] (-) TimerEvent: {}
+[26.800465] (-) TimerEvent: {}
+[26.900774] (-) TimerEvent: {}
+[27.001076] (-) TimerEvent: {}
+[27.101392] (-) TimerEvent: {}
+[27.201693] (-) TimerEvent: {}
+[27.301985] (-) TimerEvent: {}
+[27.332221] (micro_ros_agent) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o\x1b[0m\n'}
+[27.402099] (-) TimerEvent: {}
+[27.502422] (-) TimerEvent: {}
+[27.602713] (-) TimerEvent: {}
+[27.702992] (-) TimerEvent: {}
+[27.803301] (-) TimerEvent: {}
+[27.903603] (-) TimerEvent: {}
+[27.980100] (micro_ros_agent) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o\x1b[0m\n'}
+[28.003717] (-) TimerEvent: {}
+[28.104368] (-) TimerEvent: {}
+[28.204766] (-) TimerEvent: {}
+[28.305068] (-) TimerEvent: {}
+[28.405444] (-) TimerEvent: {}
+[28.505771] (-) TimerEvent: {}
+[28.606103] (-) TimerEvent: {}
+[28.649309] (micro_ros_agent) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o\x1b[0m\n'}
+[28.706215] (-) TimerEvent: {}
+[28.806504] (-) TimerEvent: {}
+[28.906791] (-) TimerEvent: {}
+[29.007079] (-) TimerEvent: {}
+[29.107360] (-) TimerEvent: {}
+[29.207682] (-) TimerEvent: {}
+[29.307980] (-) TimerEvent: {}
+[29.408269] (-) TimerEvent: {}
+[29.411313] (micro_ros_agent) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o\x1b[0m\n'}
+[29.508392] (-) TimerEvent: {}
+[29.608778] (-) TimerEvent: {}
+[29.709082] (-) TimerEvent: {}
+[29.809395] (-) TimerEvent: {}
+[29.909686] (-) TimerEvent: {}
+[30.009990] (-) TimerEvent: {}
+[30.110282] (-) TimerEvent: {}
+[30.210571] (-) TimerEvent: {}
+[30.310869] (-) TimerEvent: {}
+[30.411554] (-) TimerEvent: {}
+[30.511842] (-) TimerEvent: {}
+[30.612129] (-) TimerEvent: {}
+[30.712407] (-) TimerEvent: {}
+[30.757978] (micro_ros_agent) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o\x1b[0m\n'}
+[30.812522] (-) TimerEvent: {}
+[30.912822] (-) TimerEvent: {}
+[31.013117] (-) TimerEvent: {}
+[31.113419] (-) TimerEvent: {}
+[31.213717] (-) TimerEvent: {}
+[31.314044] (-) TimerEvent: {}
+[31.414344] (-) TimerEvent: {}
+[31.514670] (-) TimerEvent: {}
+[31.614976] (-) TimerEvent: {}
+[31.616605] (micro_ros_agent) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o\x1b[0m\n'}
+[31.715121] (-) TimerEvent: {}
+[31.815529] (-) TimerEvent: {}
+[31.915818] (-) TimerEvent: {}
+[32.016127] (-) TimerEvent: {}
+[32.116413] (-) TimerEvent: {}
+[32.216691] (-) TimerEvent: {}
+[32.316984] (-) TimerEvent: {}
+[32.417271] (-) TimerEvent: {}
+[32.517567] (-) TimerEvent: {}
+[32.617856] (-) TimerEvent: {}
+[32.718143] (-) TimerEvent: {}
+[32.818435] (-) TimerEvent: {}
+[32.918810] (-) TimerEvent: {}
+[33.019108] (-) TimerEvent: {}
+[33.027381] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o\x1b[0m\n'}
+[33.119217] (-) TimerEvent: {}
+[33.219506] (-) TimerEvent: {}
+[33.319796] (-) TimerEvent: {}
+[33.334185] (micro_ros_agent) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o\x1b[0m\n'}
+[33.419913] (-) TimerEvent: {}
+[33.520215] (-) TimerEvent: {}
+[33.620519] (-) TimerEvent: {}
+[33.720827] (-) TimerEvent: {}
+[33.821133] (-) TimerEvent: {}
+[33.861489] (micro_ros_agent) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o\x1b[0m\n'}
+[33.921250] (-) TimerEvent: {}
+[34.021550] (-) TimerEvent: {}
+[34.121858] (-) TimerEvent: {}
+[34.162823] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o\x1b[0m\n'}
+[34.221988] (-) TimerEvent: {}
+[34.322303] (-) TimerEvent: {}
+[34.422613] (-) TimerEvent: {}
+[34.451081] (micro_ros_agent) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o\x1b[0m\n'}
+[34.522764] (-) TimerEvent: {}
+[34.623110] (-) TimerEvent: {}
+[34.723426] (-) TimerEvent: {}
+[34.823744] (-) TimerEvent: {}
+[34.924072] (-) TimerEvent: {}
+[35.024378] (-) TimerEvent: {}
+[35.124703] (-) TimerEvent: {}
+[35.224991] (-) TimerEvent: {}
+[35.325301] (-) TimerEvent: {}
+[35.425578] (-) TimerEvent: {}
+[35.525880] (-) TimerEvent: {}
+[35.626171] (-) TimerEvent: {}
+[35.726473] (-) TimerEvent: {}
+[35.826908] (-) TimerEvent: {}
+[35.927202] (-) TimerEvent: {}
+[36.027497] (-) TimerEvent: {}
+[36.127873] (-) TimerEvent: {}
+[36.228282] (-) TimerEvent: {}
+[36.328603] (-) TimerEvent: {}
+[36.428900] (-) TimerEvent: {}
+[36.468160] (micro_ros_agent) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o\x1b[0m\n'}
+[36.514118] (micro_ros_agent) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o\x1b[0m\n'}
+[36.529010] (-) TimerEvent: {}
+[36.629302] (-) TimerEvent: {}
+[36.729618] (-) TimerEvent: {}
+[36.830027] (-) TimerEvent: {}
+[36.930342] (-) TimerEvent: {}
+[37.030659] (-) TimerEvent: {}
+[37.130960] (-) TimerEvent: {}
+[37.231279] (-) TimerEvent: {}
+[37.331602] (-) TimerEvent: {}
+[37.431904] (-) TimerEvent: {}
+[37.453957] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o\x1b[0m\n'}
+[37.532031] (-) TimerEvent: {}
+[37.632346] (-) TimerEvent: {}
+[37.732662] (-) TimerEvent: {}
+[37.832976] (-) TimerEvent: {}
+[37.933291] (-) TimerEvent: {}
+[38.033608] (-) TimerEvent: {}
+[38.133914] (-) TimerEvent: {}
+[38.234391] (-) TimerEvent: {}
+[38.334833] (-) TimerEvent: {}
+[38.435129] (-) TimerEvent: {}
+[38.445807] (micro_ros_agent) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o\x1b[0m\n'}
+[38.535252] (-) TimerEvent: {}
+[38.583884] (micro_ros_agent) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o\x1b[0m\n'}
+[38.635374] (-) TimerEvent: {}
+[38.735674] (-) TimerEvent: {}
+[38.835986] (-) TimerEvent: {}
+[38.936299] (-) TimerEvent: {}
+[39.036601] (-) TimerEvent: {}
+[39.136902] (-) TimerEvent: {}
+[39.237201] (-) TimerEvent: {}
+[39.337496] (-) TimerEvent: {}
+[39.437785] (-) TimerEvent: {}
+[39.538077] (-) TimerEvent: {}
+[39.638367] (-) TimerEvent: {}
+[39.738655] (-) TimerEvent: {}
+[39.838950] (-) TimerEvent: {}
+[39.939253] (-) TimerEvent: {}
+[40.039537] (-) TimerEvent: {}
+[40.139833] (-) TimerEvent: {}
+[40.240234] (-) TimerEvent: {}
+[40.340571] (-) TimerEvent: {}
+[40.440974] (-) TimerEvent: {}
+[40.541437] (-) TimerEvent: {}
+[40.641742] (-) TimerEvent: {}
+[40.742037] (-) TimerEvent: {}
+[40.842324] (-) TimerEvent: {}
+[40.927876] (micro_ros_agent) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o\x1b[0m\n'}
+[40.942444] (-) TimerEvent: {}
+[41.042738] (-) TimerEvent: {}
+[41.107745] (micro_ros_agent) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o\x1b[0m\n'}
+[41.142887] (-) TimerEvent: {}
+[41.243304] (-) TimerEvent: {}
+[41.343616] (-) TimerEvent: {}
+[41.443945] (-) TimerEvent: {}
+[41.544253] (-) TimerEvent: {}
+[41.644551] (-) TimerEvent: {}
+[41.744866] (-) TimerEvent: {}
+[41.845196] (-) TimerEvent: {}
+[41.945531] (-) TimerEvent: {}
+[42.045861] (-) TimerEvent: {}
+[42.146149] (-) TimerEvent: {}
+[42.246434] (-) TimerEvent: {}
+[42.346743] (-) TimerEvent: {}
+[42.447080] (-) TimerEvent: {}
+[42.547377] (-) TimerEvent: {}
+[42.647672] (-) TimerEvent: {}
+[42.747963] (-) TimerEvent: {}
+[42.848264] (-) TimerEvent: {}
+[42.948598] (-) TimerEvent: {}
+[43.048889] (-) TimerEvent: {}
+[43.149180] (-) TimerEvent: {}
+[43.249470] (-) TimerEvent: {}
+[43.326540] (micro_ros_agent) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o\x1b[0m\n'}
+[43.349586] (-) TimerEvent: {}
+[43.449893] (-) TimerEvent: {}
+[43.483668] (micro_ros_agent) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o\x1b[0m\n'}
+[43.550009] (-) TimerEvent: {}
+[43.654497] (-) TimerEvent: {}
+[43.754810] (-) TimerEvent: {}
+[43.855131] (-) TimerEvent: {}
+[43.955455] (-) TimerEvent: {}
+[44.055777] (-) TimerEvent: {}
+[44.156078] (-) TimerEvent: {}
+[44.256379] (-) TimerEvent: {}
+[44.356707] (-) TimerEvent: {}
+[44.457000] (-) TimerEvent: {}
+[44.557308] (-) TimerEvent: {}
+[44.657625] (-) TimerEvent: {}
+[44.757917] (-) TimerEvent: {}
+[44.858201] (-) TimerEvent: {}
+[44.958484] (-) TimerEvent: {}
+[45.058772] (-) TimerEvent: {}
+[45.159126] (-) TimerEvent: {}
+[45.259590] (-) TimerEvent: {}
+[45.359881] (-) TimerEvent: {}
+[45.460175] (-) TimerEvent: {}
+[45.560480] (-) TimerEvent: {}
+[45.660800] (-) TimerEvent: {}
+[45.761129] (-) TimerEvent: {}
+[45.861428] (-) TimerEvent: {}
+[45.961718] (-) TimerEvent: {}
+[46.062009] (-) TimerEvent: {}
+[46.162303] (-) TimerEvent: {}
+[46.262624] (-) TimerEvent: {}
+[46.282002] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o\x1b[0m\n'}
+[46.362740] (-) TimerEvent: {}
+[46.368635] (micro_ros_agent) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o\x1b[0m\n'}
+[46.462862] (-) TimerEvent: {}
+[46.563536] (-) TimerEvent: {}
+[46.663852] (-) TimerEvent: {}
+[46.764171] (-) TimerEvent: {}
+[46.864547] (-) TimerEvent: {}
+[46.965014] (-) TimerEvent: {}
+[47.065337] (-) TimerEvent: {}
+[47.165627] (-) TimerEvent: {}
+[47.265925] (-) TimerEvent: {}
+[47.366242] (-) TimerEvent: {}
+[47.466527] (-) TimerEvent: {}
+[47.567124] (-) TimerEvent: {}
+[47.667410] (-) TimerEvent: {}
+[47.767704] (-) TimerEvent: {}
+[47.868011] (-) TimerEvent: {}
+[47.968302] (-) TimerEvent: {}
+[48.068588] (-) TimerEvent: {}
+[48.168890] (-) TimerEvent: {}
+[48.269218] (-) TimerEvent: {}
+[48.369520] (-) TimerEvent: {}
+[48.392468] (micro_ros_agent) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o\x1b[0m\n'}
+[48.394846] (micro_ros_agent) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o\x1b[0m\n'}
+[48.469644] (-) TimerEvent: {}
+[48.569971] (-) TimerEvent: {}
+[48.670282] (-) TimerEvent: {}
+[48.770611] (-) TimerEvent: {}
+[48.870983] (-) TimerEvent: {}
+[48.971339] (-) TimerEvent: {}
+[49.071679] (-) TimerEvent: {}
+[49.171985] (-) TimerEvent: {}
+[49.272278] (-) TimerEvent: {}
+[49.372575] (-) TimerEvent: {}
+[49.472870] (-) TimerEvent: {}
+[49.573165] (-) TimerEvent: {}
+[49.673517] (-) TimerEvent: {}
+[49.773819] (-) TimerEvent: {}
+[49.874134] (-) TimerEvent: {}
+[49.974454] (-) TimerEvent: {}
+[50.075138] (-) TimerEvent: {}
+[50.175468] (-) TimerEvent: {}
+[50.275756] (-) TimerEvent: {}
+[50.376039] (-) TimerEvent: {}
+[50.476330] (-) TimerEvent: {}
+[50.576679] (-) TimerEvent: {}
+[50.676971] (-) TimerEvent: {}
+[50.685975] (micro_ros_agent) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o\x1b[0m\n'}
+[50.731063] (micro_ros_agent) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o\x1b[0m\n'}
+[50.777092] (-) TimerEvent: {}
+[50.877410] (-) TimerEvent: {}
+[50.977713] (-) TimerEvent: {}
+[51.078028] (-) TimerEvent: {}
+[51.178346] (-) TimerEvent: {}
+[51.278670] (-) TimerEvent: {}
+[51.378975] (-) TimerEvent: {}
+[51.479274] (-) TimerEvent: {}
+[51.579676] (-) TimerEvent: {}
+[51.680300] (-) TimerEvent: {}
+[51.780595] (-) TimerEvent: {}
+[51.880915] (-) TimerEvent: {}
+[51.981266] (-) TimerEvent: {}
+[52.081554] (-) TimerEvent: {}
+[52.181851] (-) TimerEvent: {}
+[52.282149] (-) TimerEvent: {}
+[52.382446] (-) TimerEvent: {}
+[52.482754] (-) TimerEvent: {}
+[52.583061] (-) TimerEvent: {}
+[52.639500] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o\x1b[0m\n'}
+[52.683196] (-) TimerEvent: {}
+[52.783532] (-) TimerEvent: {}
+[52.798373] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o\x1b[0m\n'}
+[52.883656] (-) TimerEvent: {}
+[52.983969] (-) TimerEvent: {}
+[53.084275] (-) TimerEvent: {}
+[53.184579] (-) TimerEvent: {}
+[53.189394] (micro_ros_agent) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o\x1b[0m\n'}
+[53.284698] (-) TimerEvent: {}
+[53.385000] (-) TimerEvent: {}
+[53.485321] (-) TimerEvent: {}
+[53.585618] (-) TimerEvent: {}
+[53.685920] (-) TimerEvent: {}
+[53.786247] (-) TimerEvent: {}
+[53.886544] (-) TimerEvent: {}
+[53.986836] (-) TimerEvent: {}
+[54.070404] (micro_ros_agent) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o\x1b[0m\n'}
+[54.086954] (-) TimerEvent: {}
+[54.187249] (-) TimerEvent: {}
+[54.287557] (-) TimerEvent: {}
+[54.387922] (-) TimerEvent: {}
+[54.488204] (-) TimerEvent: {}
+[54.588508] (-) TimerEvent: {}
+[54.689451] (-) TimerEvent: {}
+[54.715795] (micro_ros_agent) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o\x1b[0m\n'}
+[54.789585] (-) TimerEvent: {}
+[54.889885] (-) TimerEvent: {}
+[54.990196] (-) TimerEvent: {}
+[55.090494] (-) TimerEvent: {}
+[55.190794] (-) TimerEvent: {}
+[55.291087] (-) TimerEvent: {}
+[55.391399] (-) TimerEvent: {}
+[55.424320] (micro_ros_agent) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o\x1b[0m\n'}
+[55.491519] (-) TimerEvent: {}
+[55.591830] (-) TimerEvent: {}
+[55.692135] (-) TimerEvent: {}
+[55.792447] (-) TimerEvent: {}
+[55.892770] (-) TimerEvent: {}
+[55.993086] (-) TimerEvent: {}
+[56.093457] (-) TimerEvent: {}
+[56.193765] (-) TimerEvent: {}
+[56.294067] (-) TimerEvent: {}
+[56.394362] (-) TimerEvent: {}
+[56.494665] (-) TimerEvent: {}
+[56.594962] (-) TimerEvent: {}
+[56.695264] (-) TimerEvent: {}
+[56.795599] (-) TimerEvent: {}
+[56.895899] (-) TimerEvent: {}
+[56.996192] (-) TimerEvent: {}
+[57.096482] (-) TimerEvent: {}
+[57.196769] (-) TimerEvent: {}
+[57.297064] (-) TimerEvent: {}
+[57.397383] (-) TimerEvent: {}
+[57.497755] (-) TimerEvent: {}
+[57.598029] (-) TimerEvent: {}
+[57.698310] (-) TimerEvent: {}
+[57.798617] (-) TimerEvent: {}
+[57.898919] (-) TimerEvent: {}
+[57.999200] (-) TimerEvent: {}
+[58.099503] (-) TimerEvent: {}
+[58.120789] (micro_ros_agent) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o\x1b[0m\n'}
+[58.199618] (-) TimerEvent: {}
+[58.299915] (-) TimerEvent: {}
+[58.400213] (-) TimerEvent: {}
+[58.500506] (-) TimerEvent: {}
+[58.565380] (micro_ros_agent) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o\x1b[0m\n'}
+[58.600624] (-) TimerEvent: {}
+[58.700935] (-) TimerEvent: {}
+[58.801369] (-) TimerEvent: {}
+[58.901846] (-) TimerEvent: {}
+[59.002158] (-) TimerEvent: {}
+[59.102488] (-) TimerEvent: {}
+[59.202805] (-) TimerEvent: {}
+[59.303122] (-) TimerEvent: {}
+[59.403425] (-) TimerEvent: {}
+[59.503751] (-) TimerEvent: {}
+[59.604144] (-) TimerEvent: {}
+[59.704448] (-) TimerEvent: {}
+[59.804752] (-) TimerEvent: {}
+[59.905150] (-) TimerEvent: {}
+[60.005505] (-) TimerEvent: {}
+[60.105804] (-) TimerEvent: {}
+[60.206100] (-) TimerEvent: {}
+[60.306392] (-) TimerEvent: {}
+[60.406698] (-) TimerEvent: {}
+[60.506992] (-) TimerEvent: {}
+[60.607302] (-) TimerEvent: {}
+[60.707593] (-) TimerEvent: {}
+[60.807907] (-) TimerEvent: {}
+[60.908243] (-) TimerEvent: {}
+[61.008526] (-) TimerEvent: {}
+[61.108816] (-) TimerEvent: {}
+[61.209104] (-) TimerEvent: {}
+[61.309465] (-) TimerEvent: {}
+[61.409965] (-) TimerEvent: {}
+[61.510599] (-) TimerEvent: {}
+[61.611052] (-) TimerEvent: {}
+[61.711454] (-) TimerEvent: {}
+[61.811924] (-) TimerEvent: {}
+[61.912370] (-) TimerEvent: {}
+[62.012779] (-) TimerEvent: {}
+[62.113142] (-) TimerEvent: {}
+[62.213611] (-) TimerEvent: {}
+[62.314056] (-) TimerEvent: {}
+[62.414592] (-) TimerEvent: {}
+[62.514963] (-) TimerEvent: {}
+[62.615401] (-) TimerEvent: {}
+[62.715717] (-) TimerEvent: {}
+[62.816111] (-) TimerEvent: {}
+[62.916589] (-) TimerEvent: {}
+[63.016921] (-) TimerEvent: {}
+[63.117300] (-) TimerEvent: {}
+[63.172322] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmicroxrcedds_agent.so\x1b[0m\n'}
+[63.217525] (-) TimerEvent: {}
+[63.318071] (-) TimerEvent: {}
+[63.418786] (-) TimerEvent: {}
+[63.519198] (-) TimerEvent: {}
+[63.530758] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[63.545220] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'uagent'\x1b[0m\n"}
+[63.557310] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'uagent'\x1b[0m\n"}
+[63.573255] (micro_ros_agent) StdoutLine: {'line': b'Built target uagent\n'}
+[63.586625] (micro_ros_agent) StdoutLine: {'line': b"[ 43%] \x1b[34m\x1b[1mPerforming install step for 'xrceagent'\x1b[0m\n"}
+[63.613147] (micro_ros_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target microxrcedds_agent\x1b[0m\n'}
+[63.619383] (-) TimerEvent: {}
+[63.647766] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[63.657673] (micro_ros_agent) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[63.662089] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[63.662211] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1\n'}
+[63.664066] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4\n'}
+[63.664160] (micro_ros_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/keime/mros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1" to ""\n'}
+[63.664202] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so\n'}
+[63.664248] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent\n'}
+[63.664502] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/types\n'}
+[63.664609] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp\n'}
+[63.664651] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp\n'}
+[63.664686] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp\n'}
+[63.664921] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp\n'}
+[63.664990] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp\n'}
+[63.665054] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/p2p\n'}
+[63.665093] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp\n'}
+[63.665132] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp\n'}
+[63.665179] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp\n'}
+[63.665215] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware\n'}
+[63.665263] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds\n'}
+[63.665315] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp\n'}
+[63.665362] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp\n'}
+[63.665411] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced\n'}
+[63.665507] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp\n'}
+[63.665574] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp\n'}
+[63.665623] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast\n'}
+[63.665671] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp\n'}
+[63.665719] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp\n'}
+[63.665767] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils\n'}
+[63.665814] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp\n'}
+[63.666000] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp\n'}
+[63.666069] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/processor\n'}
+[63.666125] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp\n'}
+[63.666185] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/reader\n'}
+[63.666237] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp\n'}
+[63.666275] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/subscriber\n'}
+[63.666323] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp\n'}
+[63.666360] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/datawriter\n'}
+[63.666410] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp\n'}
+[63.666447] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/requester\n'}
+[63.666494] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp\n'}
+[63.666534] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/client\n'}
+[63.666582] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp\n'}
+[63.666618] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/client/session\n'}
+[63.666669] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp\n'}
+[63.666706] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream\n'}
+[63.666762] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp\n'}
+[63.666824] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp\n'}
+[63.666861] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp\n'}
+[63.666915] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp\n'}
+[63.666969] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/message\n'}
+[63.667022] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp\n'}
+[63.667068] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp\n'}
+[63.667119] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp\n'}
+[63.667170] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/publisher\n'}
+[63.667221] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp\n'}
+[63.667272] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/topic\n'}
+[63.667408] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp\n'}
+[63.667480] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/logger\n'}
+[63.667538] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp\n'}
+[63.667596] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp\n'}
+[63.667637] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/replier\n'}
+[63.667695] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp\n'}
+[63.667735] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/participant\n'}
+[63.667789] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp\n'}
+[63.667824] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/datareader\n'}
+[63.667872] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp\n'}
+[63.667923] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport\n'}
+[63.668115] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p\n'}
+[63.668212] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp\n'}
+[63.668257] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp\n'}
+[63.668318] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp\n'}
+[63.668359] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/custom\n'}
+[63.668418] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp\n'}
+[63.668473] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery\n'}
+[63.668533] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp\n'}
+[63.668573] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp\n'}
+[63.668631] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp\n'}
+[63.668696] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp\n'}
+[63.668749] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp\n'}
+[63.668810] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp\n'}
+[63.668862] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp\n'}
+[63.668915] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp\n'}
+[63.668966] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp\n'}
+[63.669018] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp\n'}
+[63.669064] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp\n'}
+[63.669114] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing\n'}
+[63.669170] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp\n'}
+[63.669224] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial\n'}
+[63.669282] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp\n'}
+[63.669327] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp\n'}
+[63.669383] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h\n'}
+[63.669436] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp\n'}
+[63.669472] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp\n'}
+[63.669522] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp\n'}
+[63.669571] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/can\n'}
+[63.669620] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp\n'}
+[63.669677] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp\n'}
+[63.669743] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint\n'}
+[63.669801] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp\n'}
+[63.669842] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp\n'}
+[63.669894] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp\n'}
+[63.669944] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp\n'}
+[63.669989] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp\n'}
+[63.670044] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp\n'}
+[63.670102] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util\n'}
+[63.670152] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp\n'}
+[63.670201] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp\n'}
+[63.670251] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp\n'}
+[63.670298] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp\n'}
+[63.670346] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp\n'}
+[63.670394] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp\n'}
+[63.670442] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp\n'}
+[63.670490] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/object\n'}
+[63.670542] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp\n'}
+[63.670597] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils\n'}
+[63.670644] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp\n'}
+[63.670697] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp\n'}
+[63.670743] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp\n'}
+[63.670792] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp\n'}
+[63.670843] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp\n'}
+[63.670887] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp\n'}
+[63.670921] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp\n'}
+[63.670954] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp\n'}
+[63.670987] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp\n'}
+[63.671019] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler\n'}
+[63.671051] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp\n'}
+[63.671083] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp\n'}
+[63.671115] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp\n'}
+[63.671370] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake\n'}
+[63.671459] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake\n'}
+[63.671508] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/include/uxr/agent/config.hpp\n'}
+[63.671544] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE\n'}
+[63.671591] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake\n'}
+[63.671625] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake\n'}
+[63.681773] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mCompleted 'xrceagent'\x1b[0m\n"}
+[63.698233] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Built target xrceagent\n'}
+[63.710354] (micro_ros_agent) StdoutLine: {'line': b"[ 56%] \x1b[34m\x1b[1mCreating directories for 'micro_ros_agent'\x1b[0m\n"}
+[63.719596] (-) TimerEvent: {}
+[63.745996] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mNo download step for 'micro_ros_agent'\x1b[0m\n"}
+[63.757855] (micro_ros_agent) StdoutLine: {'line': b"[ 68%] \x1b[34m\x1b[1mNo update step for 'micro_ros_agent'\x1b[0m\n"}
+[63.769577] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mNo patch step for 'micro_ros_agent'\x1b[0m\n"}
+[63.781635] (micro_ros_agent) StdoutLine: {'line': b"[ 81%] \x1b[34m\x1b[1mPerforming configure step for 'micro_ros_agent'\x1b[0m\n"}
+[63.786033] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/keime/mros2_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake\n'}
+[63.789194] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[63.819807] (-) TimerEvent: {}
+[63.890599] (micro_ros_agent) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[63.920036] (-) TimerEvent: {}
+[64.020358] (-) TimerEvent: {}
+[64.120785] (-) TimerEvent: {}
+[64.221108] (-) TimerEvent: {}
+[64.321463] (-) TimerEvent: {}
+[64.421963] (-) TimerEvent: {}
+[64.522442] (-) TimerEvent: {}
+[64.622916] (-) TimerEvent: {}
+[64.723377] (-) TimerEvent: {}
+[64.823850] (-) TimerEvent: {}
+[64.924319] (-) TimerEvent: {}
+[65.024916] (-) TimerEvent: {}
+[65.125559] (-) TimerEvent: {}
+[65.177386] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[65.181018] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[65.225672] (-) TimerEvent: {}
+[65.326028] (-) TimerEvent: {}
+[65.357943] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[65.358102] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[65.426277] (-) TimerEvent: {}
+[65.488154] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[65.488822] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[65.491430] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 3.1.5 (/opt/ros/humble/share/rosidl_cmake/cmake)\n'}
+[65.492212] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[65.526339] (-) TimerEvent: {}
+[65.626695] (-) TimerEvent: {}
+[65.727101] (-) TimerEvent: {}
+[65.827452] (-) TimerEvent: {}
+[65.927992] (-) TimerEvent: {}
+[66.028466] (-) TimerEvent: {}
+[66.044219] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 2.2.2 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)\n'}
+[66.058447] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)\n'}
+[66.128639] (-) TimerEvent: {}
+[66.229049] (-) TimerEvent: {}
+[66.262319] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[66.267776] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[66.273081] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[66.282726] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[66.311023] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[66.329318] (-) TimerEvent: {}
+[66.429641] (-) TimerEvent: {}
+[66.529983] (-) TimerEvent: {}
+[66.630277] (-) TimerEvent: {}
+[66.730646] (-) TimerEvent: {}
+[66.830995] (-) TimerEvent: {}
+[66.931322] (-) TimerEvent: {}
+[67.031746] (-) TimerEvent: {}
+[67.132132] (-) TimerEvent: {}
+[67.232718] (-) TimerEvent: {}
+[67.333285] (-) TimerEvent: {}
+[67.433987] (-) TimerEvent: {}
+[67.534464] (-) TimerEvent: {}
+[67.634882] (-) TimerEvent: {}
+[67.735198] (-) TimerEvent: {}
+[67.835555] (-) TimerEvent: {}
+[67.936016] (-) TimerEvent: {}
+[68.013938] (micro_ros_agent) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[68.014919] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[68.016544] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[68.017072] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 3.0.1 (/home/keime/mros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)\n'}
+[68.036178] (-) TimerEvent: {}
+[68.077807] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[68.084854] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[68.087487] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/keime/mros2_ws/build/micro_ros_agent\n'}
+[68.104220] (micro_ros_agent) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming build step for 'micro_ros_agent'\x1b[0m\n"}
+[68.128711] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o\x1b[0m\n'}
+[68.130325] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o\x1b[0m\n'}
+[68.136325] (-) TimerEvent: {}
+[68.236594] (-) TimerEvent: {}
+[68.336887] (-) TimerEvent: {}
+[68.437187] (-) TimerEvent: {}
+[68.537489] (-) TimerEvent: {}
+[68.637807] (-) TimerEvent: {}
+[68.738185] (-) TimerEvent: {}
+[68.838532] (-) TimerEvent: {}
+[68.938857] (-) TimerEvent: {}
+[69.039178] (-) TimerEvent: {}
+[69.139522] (-) TimerEvent: {}
+[69.239870] (-) TimerEvent: {}
+[69.340219] (-) TimerEvent: {}
+[69.440579] (-) TimerEvent: {}
+[69.540893] (-) TimerEvent: {}
+[69.641213] (-) TimerEvent: {}
+[69.741533] (-) TimerEvent: {}
+[69.841847] (-) TimerEvent: {}
+[69.942173] (-) TimerEvent: {}
+[70.042529] (-) TimerEvent: {}
+[70.142852] (-) TimerEvent: {}
+[70.243164] (-) TimerEvent: {}
+[70.343471] (-) TimerEvent: {}
+[70.443788] (-) TimerEvent: {}
+[70.495470] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o\x1b[0m\n'}
+[70.543908] (-) TimerEvent: {}
+[70.644200] (-) TimerEvent: {}
+[70.744481] (-) TimerEvent: {}
+[70.816202] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o\x1b[0m\n'}
+[70.844606] (-) TimerEvent: {}
+[70.944919] (-) TimerEvent: {}
+[71.045236] (-) TimerEvent: {}
+[71.145547] (-) TimerEvent: {}
+[71.245860] (-) TimerEvent: {}
+[71.346167] (-) TimerEvent: {}
+[71.446462] (-) TimerEvent: {}
+[71.546766] (-) TimerEvent: {}
+[71.647076] (-) TimerEvent: {}
+[71.747365] (-) TimerEvent: {}
+[71.847656] (-) TimerEvent: {}
+[71.948065] (-) TimerEvent: {}
+[71.990252] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o\x1b[0m\n'}
+[72.048181] (-) TimerEvent: {}
+[72.148486] (-) TimerEvent: {}
+[72.248890] (-) TimerEvent: {}
+[72.349354] (-) TimerEvent: {}
+[72.449838] (-) TimerEvent: {}
+[72.550254] (-) TimerEvent: {}
+[72.650651] (-) TimerEvent: {}
+[72.700073] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable micro_ros_agent\x1b[0m\n'}
+[72.750929] (-) TimerEvent: {}
+[72.851597] (-) TimerEvent: {}
+[72.952075] (-) TimerEvent: {}
+[73.037307] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[73.050815] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'micro_ros_agent'\x1b[0m\n"}
+[73.052296] (-) TimerEvent: {}
+[73.063987] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'micro_ros_agent'\x1b[0m\n"}
+[73.080240] (micro_ros_agent) StdoutLine: {'line': b'Built target micro_ros_agent\n'}
+[73.086452] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[73.108572] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[73.108625] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/keime/mros2_ws/build/micro_ros_agent'], 'cwd': '/home/keime/mros2_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'keime'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/keime/mros2_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/keime'), ('OLDPWD', '/home/keime'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/keime/mros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'keime'), ('NAME', '23-11-28keime'), ('WSL_INTEROP', '/run/WSL/508_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WinGet/Packages/Ookla.Speedtest.CLI_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin'), ('WT_SESSION', '4ed568cc-6228-42c2-bd1b-5ec5e61f5de1'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/keime/mros2_ws/install/micro_ros_msgs:/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/keime/mros2_ws/build/micro_ros_agent'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/keime/mros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/keime/mros2_ws/install/micro_ros_msgs:/home/keime/mros2_ws/install/micro_ros_setup:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[73.112872] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[73.113090] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[73.113359] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[73.113551] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[73.113675] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[73.113773] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[73.113827] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[73.113980] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[73.114109] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[73.114167] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[73.114210] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[73.114350] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[73.114425] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[73.114602] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[73.114685] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[73.114787] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[73.114842] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[73.114989] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[73.115970] (micro_ros_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/keime/mros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""\n'}
+[73.116046] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[73.116085] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/keime/mros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[73.117992] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[73.152500] (-) TimerEvent: {}
+[73.231082] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[73.231786] (-) EventReactorShutdown: {}
