@@ -1,0 +1,16 @@
+[0.050s] Invoking command in '/home/keime/mros2_ws/build/tinyxml2': /usr/bin/cmake --build /home/keime/mros2_ws/build/tinyxml2 -- -j2 -l2
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target tinyxml2[0m
+[0.087s] [ 50%] Built target tinyxml2
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target xmltest[0m
+[0.101s] [100%] Built target xmltest
+[0.111s] Invoked command in '/home/keime/mros2_ws/build/tinyxml2' returned '0': /usr/bin/cmake --build /home/keime/mros2_ws/build/tinyxml2 -- -j2 -l2
+[0.156s] Invoking command in '/home/keime/mros2_ws/build/tinyxml2': /usr/bin/cmake --install /home/keime/mros2_ws/build/tinyxml2
+[0.161s] -- Install configuration: ""
+[0.161s] -- Up-to-date: /home/keime/mros2_ws/install/tinyxml2/lib/libtinyxml2.a
+[0.161s] -- Up-to-date: /home/keime/mros2_ws/install/tinyxml2/lib/cmake/tinyxml2/tinyxml2-static-targets.cmake
+[0.161s] -- Up-to-date: /home/keime/mros2_ws/install/tinyxml2/lib/cmake/tinyxml2/tinyxml2-static-targets-noconfig.cmake
+[0.161s] -- Up-to-date: /home/keime/mros2_ws/install/tinyxml2/lib/cmake/tinyxml2/tinyxml2-config.cmake
+[0.161s] -- Up-to-date: /home/keime/mros2_ws/install/tinyxml2/lib/cmake/tinyxml2/tinyxml2-config-version.cmake
+[0.161s] -- Up-to-date: /home/keime/mros2_ws/install/tinyxml2/include/tinyxml2.h
+[0.161s] -- Up-to-date: /home/keime/mros2_ws/install/tinyxml2/lib/pkgconfig/tinyxml2.pc
+[0.168s] Invoked command in '/home/keime/mros2_ws/build/tinyxml2' returned '0': /usr/bin/cmake --install /home/keime/mros2_ws/build/tinyxml2

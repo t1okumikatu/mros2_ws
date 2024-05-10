@@ -1,0 +1,4 @@
+Invoking command in '/home/keime/mros2_ws/build/tinyxml2': /usr/bin/cmake --build /home/keime/mros2_ws/build/tinyxml2 -- -j2 -l2
+Invoked command in '/home/keime/mros2_ws/build/tinyxml2' returned '0': /usr/bin/cmake --build /home/keime/mros2_ws/build/tinyxml2 -- -j2 -l2
+Invoking command in '/home/keime/mros2_ws/build/tinyxml2': /usr/bin/cmake --install /home/keime/mros2_ws/build/tinyxml2
+Invoked command in '/home/keime/mros2_ws/build/tinyxml2' returned '0': /usr/bin/cmake --install /home/keime/mros2_ws/build/tinyxml2
